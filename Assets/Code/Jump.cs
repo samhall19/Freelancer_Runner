@@ -4,7 +4,6 @@ using System.Collections;
 public class Jump : MonoBehaviour
 {
 
-  {
     public float JumpSpeed = 3f;
     private bool HasJumped = false;
     private Rigidbody2D body2d;
@@ -35,3 +34,4 @@ public class Jump : MonoBehaviour
         }
     }
 }
+
